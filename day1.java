@@ -79,34 +79,52 @@ public class day1 {
         // to the sum of cubes of its digits. Write a program to check if a number is an
         // Armstrong number. 153)
 
-        System.out.println("Enter number to check Armstrong or not: ");
+//        System.out.println("Enter number to check Armstrong or not: ");
+//        int n = sc.nextInt();
+//        int original = n;
+//
+//        int count = 0;
+//        int temp = n;
+//
+//        // Step 1: Count number of digits
+//        while (temp != 0) {
+//            count++;
+//            temp /= 10;
+//        }
+//
+//        int sum = 0;
+//        temp = n;
+//
+//        // Step 2: Calculate sum of digits raised to the power of count
+//        while (temp != 0) {
+//            int digit = temp % 10;
+//            sum += Math.pow(digit, count);
+//            temp /= 10;
+//        }
+//
+//        // Step 3: Compare
+//        if (sum == original) {
+//            System.out.println(original + " is an Armstrong number.");
+//        } else {
+//            System.out.println(original + " is not an Armstrong number.");
+//        }
+
+        //question 8 : fibonacci series
+
+        System.out.println("enter the number to want print fibona series");
         int n = sc.nextInt();
-        int original = n;
-
-        int count = 0;
-        int temp = n;
-
-        // Step 1: Count number of digits
-        while (temp != 0) {
-            count++;
-            temp /= 10;
-        }
-
         int sum = 0;
-        temp = n;
+        int a = 0;
+        int b = 1;
+        System.out.println(a + " ");
 
-        // Step 2: Calculate sum of digits raised to the power of count
-        while (temp != 0) {
-            int digit = temp % 10;
-            sum += Math.pow(digit, count);
-            temp /= 10;
+        for(int i = 0;i<n;i++) {
+                sum = a + b;
+                a = b;
+                b = sum;
+                System.out.println(sum);
+
         }
 
-        // Step 3: Compare
-        if (sum == original) {
-            System.out.println(original + " is an Armstrong number.");
-        } else {
-            System.out.println(original + " is not an Armstrong number.");
-        }
     }
 }
