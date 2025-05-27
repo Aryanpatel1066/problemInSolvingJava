@@ -71,18 +71,81 @@ public class day2 {
         //           _**
         //           ***
 
-        System.out.println("enter row number: ");
+//        System.out.println("enter row number: ");
+//        int row = sc.nextInt();
+//
+//        for(int i = 1;i<=row;i++){
+//            for(int j = row;j>=i;j--){
+//                System.out.print("_");
+//            }
+//            for(int k=1;k<=i;k++){
+//                System.out.print("*");
+//             }
+//            System.out.println();
+//        }
+
+        //problem6: 1
+        //          12
+        //          123
+
+//        System.out.println("enter row number: ");
+//        int row = sc.nextInt();
+//
+//        for(int i = 1;i<=row;i++){
+//            for (int j = 1;j<=i;j++){
+//                System.out.print(j);
+//            }
+//            System.out.println();
+//        }
+//    }
+        //problem7: 123
+        //          12
+        //          1
+
+//        System.out.println("enter row number");
+//        int row = sc.nextInt();
+//
+//        for(int i =row;i>=1;i--){
+//        for(int j =1;j<=i;j++){
+//            System.out.print(j);
+//        }
+//            System.out.println();
+//        }
+
+        //problem8: 1
+        //          23
+        //          456
+//        System.out.println("enter the total row: ");
+//        int row = sc.nextInt();
+//        int counter =0;
+//        for(int i = 1;i<=row;i++){
+//            for(int j = 1;j<=i;j++){
+//                counter ++;
+//                System.out.print(counter);
+//            }
+//            System.out.println();
+//        }
+
+        //problem9: 1
+        //          01
+        //          101
+        //          0101
+
+        System.out.println("enter the total row: ");
         int row = sc.nextInt();
 
-        for(int i = 1;i<=row;i++){
-            for(int j = row;j>=i;j--){
-                System.out.print("_");
-            }
-            for(int k=1;k<=i;k++){
-                System.out.print("*");
-             }
-            System.out.println();
-        }
+//        for(int i = 1;i<=row;i++){
+//            for(int j = 1;j<=i;j++){
+//                if((i+j) % 2 == 0 ){
+//                    System.out.print("1");
+//                }
+//                else  {
+//                    System.out.print("0");
+//                }
+//            }
+//            System.out.println();
+//        }
 
     }
+
 }
